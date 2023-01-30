@@ -1,0 +1,483 @@
+@font-face {
+    src: url(/fonts/Montserrat-Regular.ttf);
+    font-family: "Monsterrat-regular";
+}
+
+@font-face {src: url(/fonts/Montserrat-Thin.ttf); font-family: "Monsterrat-thin";}
+
+body {
+    width: 100vw;
+    background-color: #E4C2C4;
+}
+
+* {
+    font-family: "Monsterrat-regular";
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.buttons {
+    background: #FCEFF0;
+    border: 1.5px solid #000000;
+    width: 178px;
+    height: 39px; 
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 1pt #838181;
+}
+
+a {
+    text-decoration: none;
+}
+
+.inner-div {
+    max-width: 1480px;
+    padding-bottom: 80px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 40px !important;
+    background: transparent !important;
+}
+
+.last-links {
+    border-right: 0px !important;
+    padding-right: 0px !important;
+}
+
+hr {
+    border: 1px solid #E4C2C4;
+}
+
+/*//////////////////////////////// NAV ///////////////////////////////////////////*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#nav-links{
+    align-self: flex-end;
+}
+
+#nav-links a {
+    border-right: 1px solid black;
+    padding: 0 10px;
+} 
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: "Monsterrat-thin";
+}
+
+nav a:hover {
+    color: #B7787C;
+}
+
+nav h1 {
+    font-weight: 1000;
+    font-size: 40px;
+    padding-bottom: 0 !important;
+    font-family: "Monsterrat-thin";
+}
+
+/*//////////////////////////////// HERO ///////////////////////////////////////////*/
+#monstera {
+    width: 270px;
+    z-index: 1;
+    background: transparent;
+}
+
+#monstera-1 {
+    width: 240px;
+    z-index: 1;
+    background: transparent;
+}
+
+.top-leaves {
+    position: relative;
+    background: transparent;
+    
+}
+
+#top-leaf-1 {
+    top: -50px;
+    left: 150px;
+}
+
+#top-leaf-2 {
+    position: relative;
+    top: 400px;
+    right: 150px;
+  
+}
+
+#hero {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 40px;
+    margin-bottom: 80px;
+    
+}
+
+#above-the-fold{
+    background: #EFDBDC;
+    height: 570px;
+    width: 1080px;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+/*#above-the-fold:before {
+    content: url("/images/Monstera.png")
+}*/
+
+#rectangle-1 {
+    background: #EFDBDC;
+    border: #E4C2C4 solid 2pt;
+    margin: 20px;
+    width: 1010px;
+    height: 510px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 45px !important;
+    padding: 0;
+    line-height: 55px;
+    background: transparent;
+}
+
+#subtitle {
+    text-align: center;
+    background-color: transparent;
+    width: 100%;
+}
+
+#resume-btn {
+    display: block;
+    margin: 0 auto;
+}
+
+/*//////////////////////////////// ABOUT ///////////////////////////////////////////*/
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+#about-title {
+    width: 100%;
+}
+
+#about .inner-div {
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+
+#natalia-kostka {
+    width: 200px;
+}
+
+.bio-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFDBDC;
+    width: 480px;
+    height: 720px;
+    border-radius: 12px;
+    margin-right: 45px;
+}
+
+#rec-2 {
+    background-color:#EFDBDC;
+    border: #E4C2C4 solid 2pt;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+    height: 660px;
+}
+
+#icon-div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#LI-icon:before {
+    content: "\f08c";
+    font-family: "FontAwesome";
+    padding: 0px 10px;
+    font-size: 40px;
+    color: black;
+}
+
+#GH-icon:before {
+    content: "\f092";
+    font-family: "FontAwesome";
+    padding: 0px 10px;
+    font-size: 40px;
+    color: black;
+}
+
+#natalia-kostka{
+    width: 321px;
+    height: 335px;
+    background-color: transparent;
+}
+
+#name {
+    padding-bottom: 0px !important;
+}
+
+#name, #job-title {
+    background-color: transparent;
+}
+
+
+#bio-summary {
+    margin-left: 45px;
+}
+
+#bio {
+    width: 443px;
+    height: 552px;
+    font-family: "Monsterrat-regular";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#btn-div{
+    width: 443px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#monstera-leaves {
+    width: 401px;
+    height: 90px;
+}
+
+/*//////////////////////////////// SKILLS ///////////////////////////////////////////*/
+#skills-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+#rectangle-3 {
+    width: 1080px;
+    height: 450px;
+    background: #EFDBDC;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills-table {
+    background-color: transparent;
+    width: 1023px;
+    height: 390px;
+}
+
+table {
+    border: 3px solid #E4C2C4;
+    background: #EFDBDC;
+}
+
+table td {
+    font-size: 20px;
+}
+
+table td:before {
+    content: "\f06c";
+    font-family: "FontAwesome";
+    padding: 0px 10px;
+    color:#B7787C;
+    font-size: 25px;
+}
+
+#skills-btn-div{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+/*//////////////////////////////// PROJECTS ///////////////////////////////////////////*/
+#projects-section {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+#all-projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* width: 80vw; */
+    row-gap: 20px;
+}
+
+.projects {
+    background: #EFDBDC;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 30%;
+    height: auto;
+}
+
+.project-imgs {
+    width: 342px;
+    height: 201px;
+    padding-top: 10px;
+    background-color: #efdbdc;
+}
+
+.containers {
+   text-align: center;
+   background: #EFDBDC;
+   margin: 20px;
+   border: 3px solid #E4C2C4;
+   padding: 20px 0;
+}
+
+.containers h2, .containers p{
+    background-color: #EFDBDC;
+    padding-top: 8px; 
+}
+
+.containers p{
+    font-size: 14pt;
+}
+
+.project-btns-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    margin-top: 20px;
+    background-color: #EFDBDC;
+}
+
+.project-btns-section .buttons {
+    font-size: 12pt;
+    width: 160px;
+}
+
+/*//////////////////////////////// CONTACT ///////////////////////////////////////////*/
+#form-section {
+    display: flex;
+    justify-content: center;
+}
+
+
+#form-div {
+    width: 1080px;
+    height: auto;
+    background: #EFDBDC;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+#rectangle-5 {
+    width: 100%;
+    /* height: 520px; */
+    background: #EFDBDC;
+    border: 2pt solid #E4C2C4;
+    margin: 20px;
+    padding-right: 20px;
+}
+
+form {
+    background-color: transparent;
+    padding: 20px;
+}
+
+form input, textarea {
+    width: 100%;
+    background: #FCEFF0;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16pt;
+    margin-top: 8px;
+}
+
+#message-area {
+    min-height: 150px;
+}
+
+form label {
+    background-color: transparent;
+    font-size: 18pt;
+}
+
+#submit-btn {
+    margin: 15px;
+    padding: 0px;
+}
+#submit-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+#form-leaf {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 910px;
+    bottom: 120px
+}
+
+/*//////////////////////////////// FOOTER ///////////////////////////////////////////*/
+footer {
+    background: #B7787C;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#bottom-nav-links {
+    display: flex;
+    justify-content: center;
+
+}
+
+#bottom-nav-links a:hover {
+    color: #EFDBDC;
+}
+
+#bottom-nav-links a {
+    border-right: 1px solid #FCEFF0;
+    padding: 0 10px;
+    color: #FCEFF0;
+} 
+
