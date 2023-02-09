@@ -829,3 +829,33 @@ form label {
         padding-top: 20px;
     }
 }
+
+
+/* /////////////////SPECIAL LEAFS///////////////// */
+@media screen and (max-width: 1200px) and (min-width: 1026px){
+
+    #monstera {
+        width: 30%;
+    }
+
+#monstera-1 {
+        width: 200px;
+    }
+
+    #top-leaf-2 {
+        bottom: 0px;
+        right: 0%;
+    }
+    
+    #top-leaf-1 {
+        left: -5%;
+        top: 20px;
+    }
+
+}
+
+
+
+
+
+
