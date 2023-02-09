@@ -34,7 +34,7 @@ a {
 
 .inner-div {
     max-width: 1480px;
-    padding-bottom: 80px;
+    padding: 0px 20px 80px 20px;
 }
 
 h1 {
@@ -58,6 +58,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 30px;
+    align-items: center;
 }
 
 #nav-links{
@@ -90,7 +91,8 @@ nav h1 {
 
 /*//////////////////////////////// HERO ///////////////////////////////////////////*/
 #monstera {
-    width: 270px;
+    /* max-width: 270px; */
+    width: 35%;
     z-index: 1;
     background: transparent;
 }
@@ -108,30 +110,36 @@ nav h1 {
 }
 
 #top-leaf-1 {
-    top: -50px;
-    left: 150px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    max-width: 100%;
 }
 
 #top-leaf-2 {
-    position: relative;
-    top: 400px;
-    right: 150px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
   
 }
 
 #hero {
     display: flex;
-    width: 100%;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
     justify-content: center;
     padding-top: 40px;
     margin-bottom: 80px;
+    position: relative;
+
     
 }
 
 #above-the-fold{
     background: #EFDBDC;
     height: 570px;
-    width: 1080px;
+    max-width: 1080px;
     border-radius: 12px;
     display: flex;
     flex-wrap: wrap;
@@ -351,7 +359,7 @@ table td:before {
 }
 
 .project-imgs {
-    width: 342px;
+    width: 90%;
     height: 201px;
     padding-top: 10px;
     background-color: #efdbdc;
@@ -376,10 +384,15 @@ table td:before {
 
 .project-btns-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: 10px;
     margin-top: 20px;
     background-color: #EFDBDC;
+}
+
+#view-btn {
+    margin-bottom: 20px;
 }
 
 .project-btns-section .buttons {
@@ -481,3 +494,158 @@ footer {
     color: #FCEFF0;
 } 
 
+/*//////////////////////////////// MEDIA QUERIES ///////////////////////////////////////////*/
+
+/*IPAD*/
+@media screen and (max-width: 1025px) {
+
+* {
+    margin: 0px;
+}
+
+nav h1 {
+    font-size: 32px !important;
+}
+
+nav a {
+    font-size: 18px;
+}
+
+#rectangle-1 {
+    max-width: 90vw;
+    height: 350px;
+}
+
+#above-the-fold {
+    max-width: 100vw;
+    height: 400px;
+}
+
+#top-leaf-1 img,  #top-leaf-2 img {
+    width: 160px;
+    height: 160px;
+}
+
+#top-leaf-2 {
+    bottom: -30px;
+    right: -35px;
+}
+
+#top-leaf-1 {
+    left: -37px
+}
+
+
+#title {
+    font-size: 34px !important;
+}
+
+#subtitle {
+    font-size: 18px !important;
+}
+
+.buttons {
+    font-size: 16px;
+    width: 145px;
+}
+
+h1 {
+    font-size: 34px !important;
+}
+
+#about .inner-div {
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.bio-card{
+    margin-right: 0;
+}
+
+#bio-summary {
+    margin: 60px;
+    text-align: center;
+}
+
+#bio {
+    width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+#monstera-leaves {
+    margin-bottom: 30px;
+}
+
+#btn-div {
+    width: 60%;
+    justify-content: space-around;
+    margin: auto;
+}
+
+#skills-table {
+    max-width: 95%;
+    max-height: 90%;
+    height: 100%;
+}
+
+#rectangle-3 {
+    max-width: 95vw;
+}
+
+table td {
+    font-size: 18px;
+}
+
+table td:before {
+    font-size: 22px;
+}
+
+.projects {
+    max-width: 48%;
+}
+
+.containers h2 {
+    font-size: 22px;
+}
+
+.containers p {
+    font-size: 16px;
+}
+.project-btns-section{
+    flex-wrap: wrap;
+}
+
+#view-btn {
+    margin-bottom: 20px;
+}
+
+.inner-div {
+    padding-bottom: 20px;
+}
+
+#about {
+    margin-bottom: 0px;
+}
+
+#form-div {
+    max-width: 90vw;
+}
+
+form label {
+    font-size: 16pt;
+}
+
+#form-section {
+    margin-top: 30px;
+}
+
+#form-leaf {
+    left: 530px;
+    bottom: 90px;
+    width: 180px;
+    height: 180px;
+
+}
+}
