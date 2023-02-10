@@ -373,12 +373,13 @@ table td:before {
    margin: 20px;
    border: 3px solid #E4C2C4;
    padding: 20px 0;
+   height: fit-content;
    min-height: 400px;
 }
 
 .containers h2, .containers p{
     background-color: #EFDBDC;
-    padding-top: 8px; 
+    
 }
 
 .containers p{
